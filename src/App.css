@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+
+.dark-theme {
+  background-color:#0a192f;
+  color: #d7e3fc;
+
+  --d1: #0a192f;
+  --d2: #112240;
+  --d3: #233554;
+
+  --l1: #8892b0;
+  --l2: #a8b2d1;
+  --l3: #ccd6f6;
+  --l4: #e6f1ff;
+
+  --highlight: #64ffda;
+  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.light-theme {
+  background-color:#ece2df;
+  color: #333;
+  
+  
+  --d2:  #d8c4c0;
+  --d3: #ECE9DF;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+  --l1: #737373;
+  --l2: #737373;
+  --l3: #595959;
+  --l4: #333;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  --highlight: #9C22BD;
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }

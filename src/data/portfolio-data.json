@@ -1,0 +1,128 @@
+{
+  "heroSection": {
+                  "id": "hero1",
+                  "heroName": "Aishwarya Mokashi",
+                  "heroRole": "Software Developer",
+                  "heroPickUpLine": "Passionate developer intent on developing innovative solutions for the mutual growth and progress, having a keen and incremental approach towards learning.",
+                  "heroImgSrc": "Images/heroImg.jpeg"
+                },
+
+  "experience": [
+        
+            {
+              "id":"exp1",
+              "duration":"Aug-2022 to Present",
+              "companyName":"Persistent Systems Pvt Ltd.",
+              "role":"Software Engineer",
+              "task": ["Training in software testing using Selenium in Java and Maven.", 
+                        "Developed projects in Java.", 
+                        "Trained in API testing using Postman.", 
+                        "Worked on Software AG platform.",
+                        "Skilled in using Functionize integrated with Jira."
+                      ]
+            },
+            {
+              "id":"exp2",
+              "duration":"Jan-2022 to Jun-2022",
+              "companyName":"EvolvingX Pvt Ltd.",
+              "role":"Software Developer Intern",
+              "task": ["Future and Design thinking implemented.", 
+                        "Practiced development using Unreal Engine.",
+                        "Used Adobe XD to create AR assets."
+                      ]
+            },
+            {
+              "id":"exp3",
+              "duration":"Apr-2021 to May-2021",
+              "companyName":"Inception Wave Pvt Ltd.",
+              "role":"Graphic Designing Intern",
+              "task": ["Worked as a part of the operations team to develop a product called Grapido.", 
+                        "Grapido is a social forum for like minded people to come together.",
+                        "Contributed through creative graphic designing."
+                      ]
+            }
+          ],
+  
+                
+  "education": 
+          [
+            {
+              "id":"edu1",
+              "duration":"2019 - 2022",
+              "degree":"Bachelor of Engineering",
+              "instituteName":"Bharati Vidyapeeth's College of Engineering for Women",
+              "instituteUniversity":"Savitribai Phule Pune University",
+              "location":"Pune, India",
+              "gradeFormat": "CGPA",
+              "grade":"9.24"
+            },
+            {
+              "id":"edu2",
+              "duration":"2016 - 2019",
+              "degree":"Diploma in Computer Technology",
+              "instituteName":"Bharati Vidyapeeth's Jawaharlal Nehru Institute of Technology",
+              "instituteUniversity":"MSBTE",
+              "location":"Pune, India",
+              "gradeFormat": "Percentage",
+              "grade":"79%"
+            },
+            {
+              "id":"edu3",
+              "duration":"2013 - 2014",
+              "degree":"Senior Secondary",
+              "instituteName":"Sinhagad Spring Dale School",
+              "instituteUniversity":"SSC",
+              "location":"Pune, India",
+              "gradeFormat": "Percentage",
+              "grade":"84"
+            }
+            ],
+  
+  "projects": 
+          [
+            {
+            "id":"proj1",
+            "projName":"Hunger Station",
+            "projDes": ["An online app where user can order food online.","It was built using Android Studio."],
+            "projImage":"Images/hungerStation.jpg"
+            },
+            {
+              "id":"proj2",
+              "projName":"Agribot",
+              "projDes": ["An automatic seed sowing and hurdle detecting robot.","It was built using Arduino and various sensors."],
+              "projImage":"Images/agribot.jpg"
+            },
+            {
+              "id":"proj3",
+              "projName":"Material classification",
+              "projDes": ["This project is developed using CNN techniques and SVM algorithms.","It's core functionality is to identify various materials present in the environment."],
+              "projImage":"Images/MaterialClassification.jpg"
+            },
+            {
+              "id":"proj4",
+              "projName":"Leaf disease identification",
+              "projDes": ["Image processing is the key factor in developing this project.","Deep CNN algorithm is used and it can identify and enlist various leaf diseases and presents cures available for the same"],
+              "projImage":"Images/leafDiseaseDetection.png"
+            }
+          ],
+
+  "certifications": 
+          [
+            {
+              "id":"cert1",
+              "certificateName":"Capstone Retrieving Processing And Visualizing",
+              "certificateImgSrc":"Images/Certifications/CapstoneRetrievingProcessingAndVisualizing.jpg"
+            },
+            {
+              "id":"cert2",
+              "certificateName":"Using Python To Access Web Data",
+              "certificateImgSrc":"Images/Certifications/UsingPythonToAccessWebData.jpg"
+            },
+            {
+              "id":"cert3",
+              "certificateName":"Teamwork Skills Communicating Effectively In Groups",
+              "certificateImgSrc":"Images/Certifications/TeamworkSkillsCommunicatingEffectivelyInGroups.jpg"
+            }
+          ]
+  
+}
