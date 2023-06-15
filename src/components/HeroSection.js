@@ -11,9 +11,9 @@ const HeroSection = (props) => {
 
     return (
         <Wrapper id="home" >
-            <div className="container-fluid container-md aa">
-                <div className="row aaa gx-5">
-                    <div className="qaqa col-xs-8 col-sm-8 col-md-8 col-lg-6 mx-auto ">
+            <div className="container-fluid container-md">
+                <div className="row gy-3 g-0 hero-sec">
+                    <div className="col-xs-12 col-sm-12 col-md-6 col-lg-7 mx-auto ">
                         <div className="detail">
                             <p>Hello, I am </p>
                             <h1> {heroName}</h1>
@@ -34,8 +34,8 @@ const HeroSection = (props) => {
                         </div>
                     </div>
 
-                    <div className="qaqa col-xs-8 col-sm-8 col-md-8 col-lg-6 mx-auto d-flex align-items-center">
-                        <div className="hero-Img">
+                    <div className="col-xs-12 col-sm-12 col-md-6 col-lg-5 mx-auto d-flex align-items-center">
+                        <div className="hero-Img mx-auto">
                             <figure >
 
                                 <img  src={heroImgSrc} className="img-fluid img" alt="hero "/>
@@ -53,80 +53,65 @@ const HeroSection = (props) => {
 const Wrapper = styled.section`
     margin-top: 30px;
     padding-top: 80px;
-    width: 80%;
+    
     margin: auto;
-    z-index: 999;
     color: var(--l4);
 
     .tech-icon {
         color: var(--highlight);
     }
-    
-    .aa {
+
+    .hero-sec {
         margin-top: 3.75rem;
+        
+        p {
+            color: var(--highlight);
+        }
 
-        .row {
-            width: 100%;
-            margin: auto;
+        h1 {
+            margin-top: 1.25rem;
+            font-size: 2.8rem;
+            color: var(--l4);
+        }
 
-            p {
-                color: var(--highlight);
-            }
+        h5 {
+            margin-top: 0.938rem;
+            font-size: 2.2rem;
+            color: var(--l1);
+        }
 
-            h1 {
-                margin-top: 1.25rem;
-                font-size: 2.7rem;
-            }
-
-            h5 {
-                margin-top: 0.938rem;
-                font-size: 2.2rem;
-                color: var(--l1);
-            }
-
-            h6 {
-                margin-top: 2.5rem;
-                font-size: 1.25rem;
-                text-align: justify;
-                font-size: 24px;
-                color: var(--l2);
-                
-                span {
-                    text-align: -webkit-center;
-                    
-                }
-            }
-
-            img {
-                border-radius: 10px;
-                max-width: 450px;
-                
-                
-            }
-
-            .detail {
-                padding-left: 5px;
-                padding-bottom: 0.5rem;
-                height: 100%;
-                border-style: none none inset inset;
-                border-radius: 10px;
-                padding-top: 1.25rem;
-                
-            }
-
+        h6 {
+            margin-top: 2.5rem;
+            
+            text-align: justify;
+            font-size: 24px;
+            color: var(--l2);
+            
             
         }
-        
+
+        img {
+            border-radius: 10px;
+            max-height: 400px;
+        }
+
+        .detail {
+            padding-left: 5px;
+            padding-bottom: 0.5rem;
+            height: 100%;
+            border-style: none none inset inset;
+            border-radius: 10px;
+            padding-top: 1.25rem;
+            
+        }
+
+
     }
+    
+    
+    
 
-    @media (min-width: 768px) { 
-        .aa{
-
-        .row {
-            
-            
-        }}
-     }
+   
     
 `;
 

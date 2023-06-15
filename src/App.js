@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-    <ParticleBackground />
+    {/* <ParticleBackground /> */}
 
     <Header />
     <HeroSection heroData={heroSection} />

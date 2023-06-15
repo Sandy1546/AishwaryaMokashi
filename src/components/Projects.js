@@ -54,6 +54,7 @@ const Wrapper = styled.section`
         height: 100%;
         color: var(--l2);
         max-width: 350px;
+        margin: auto;
 
         h5 {
             color: var(--l4);
