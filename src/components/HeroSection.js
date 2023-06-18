@@ -12,7 +12,7 @@ const HeroSection = (props) => {
     return (
         <Wrapper id="home" >
             <div className="container-fluid container-md">
-                <div className="row gy-3 g-0 hero-sec">
+                <div className="row gy-3 hero-sec">
                     <div className="col-xs-12 col-sm-12 col-md-6 col-lg-7 mx-auto ">
                         <div className="detail">
                             <p>Hello, I am </p>

@@ -36,7 +36,7 @@ const Contact = () => {
                             
                             <div className="card-body">
                                 <BsLinkedin className="card-img" size={32}/>
-                                <a className="card-title" href="https://www.linkedin.com/in/enggsandipsingh" target="_blank" rel="noreferrer">https://www.linkedin.com/in/aishwarya-mokashi-3755381a6</a>
+                                <a className="card-title" href="https://www.linkedin.com/in/aishwarya-mokashi-3755381a6" target="_blank" rel="noreferrer">https://www.linkedin.com/in/aishwarya-mokashi-3755381a6</a>
                             </div>
                         </div>
                     </div>
